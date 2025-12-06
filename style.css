@@ -1,0 +1,155 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #000, #1a1a1a);
+  padding: 1rem 0;
+  border-bottom: 2px solid #d4af37;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #d4af37;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: rgba(212, 175, 55, 0.2);
+}
+
+/* Main */
+main {
+  padding: 3rem 5rem;
+}
+
+/* Section */
+section {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #2f2f2f;
+}
+
+section h2 {
+  color: #d4af37;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 1.5rem 0 1rem;
+  color: #f4d03f;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 2rem;
+}
+
+/* Image */
+figure {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+figure img {
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  color: #b8960f;
+  font-style: italic;
+}
+
+/* Article */
+article {
+  margin: 2rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #d4af37;
+}
+
+/* Form */
+fieldset {
+  border: 1px solid #3a3a3a;
+  padding: 2rem;
+  border-left: 3px solid #d4af37;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+button {
+  background: #d4af37;
+  border: none;
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #f4d03f;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #000;
+  border-top: 2px solid #d4af37;
+  color: #d4af37;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  main {
+    padding: 1.5rem;
+  }
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
